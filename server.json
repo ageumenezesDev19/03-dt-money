@@ -23,14 +23,6 @@
       "category": "Educação",
       "price": 1980,
       "createdAt": "2022-07-25T19:24:44.5052Z"
-    },
-    {
-      "description": "Conta de Luz",
-      "price": 70,
-      "category": "Gastos da Casa",
-      "type": "outcome",
-      "createdAt": "2024-06-19T19:43:04.835Z",
-      "id": "FSK5j5A"
     }
   ]
 }

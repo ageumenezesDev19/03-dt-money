@@ -1,30 +1,63 @@
-# React + TypeScript + Vite
+# DT Money
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo simples de controle financeiro pessoal.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Adicionar transações de entrada ou saída
+- Visualizar o histórico de transações
+- Verificar o total de entradas, saídas e saldo
 
-## Expanding the ESLint configuration
+## Como Usar
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone este repositório
+2. Instale as dependências com `npm install` ou `yarn install`
+3. Inicie o servidor JSON com `npm run dev:server` ou `yarn dev:server`
+4. Inicie o servidor de desenvolvimento com `npm run dev` ou `yarn dev`
+5. Acesse o aplicativo em [http://localhost:3000]
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias utilizadas
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+	•	React
+	•	TypeScript
+	•	Styled Components
+	•	Axios
+	•	JSON Server
+	•	React Hook Form
+	•	Context API
+	•	SWR (React Hooks library for remote data fetching)
+	•	React Icons
+	•	Mirage JS (for mocking API requests in tests)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+--------------------------------------------------------------------------------------------------------------------
+
+# DT Money
+
+A simple personal finance management application.
+
+## Features
+
+- Add income or expense transactions
+- View transaction history
+- Check total income, expenses, and balance
+
+## How to Use
+
+1. Clone this repository
+2. Install dependencies with `npm install` or `yarn install`
+3. Start the JSON Server with `npm run dev:server` or `yarn dev:server`
+4. Start the development server with `npm run dev` or `yarn dev`
+5. Access the application at [http://localhost:3000]
+
+## Technologies Used
+
+	•	React
+	•	TypeScript
+	•	Styled Components
+	•	Axios
+	•	JSON Server
+	•	React Hook Form
+	•	Context API
+	•	SWR (React Hooks library for remote data fetching)
+	•	React Icons
+	•	Mirage JS (for mocking API requests in tests)
